@@ -1,0 +1,44 @@
+/* Set background color for the entire content */
+body {
+  background-color: #2e004f;
+  color: white;
+  font-family: "Arial", sans-serif;
+}
+
+/* Center the content and set dimensions */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px;
+  height: 50vh; /* Full viewport height */
+  border: 1px solid white;
+}
+/* Image styling */
+.image-container img {
+  width: 300px;
+  height: 200;
+  padding: 5px;
+}
+
+/* Footer styling */
+.footer {
+  text-align: center;
+  width: 100%;
+  border: 2px solid #ffffff;
+}
+
+/* Footer title */
+.footer h2 {
+  font-family: "Cinzel", serif;
+  font-size: 1.8em;
+  font-style: italic;
+}
+
+/* Footer paragraph */
+.footer p {
+  font-size: 0.9em; /* Slightly increased font size */
+  color: #e0e0e0;
+  font-family: "Courier New", Courier, monospace; /* Monospace font for contrast */
+}
